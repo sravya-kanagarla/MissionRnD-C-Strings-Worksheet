@@ -18,7 +18,7 @@ int strLen(char *str) {
 }
 
 char KthIndexFromEnd(char *str, int K) {
-	if (str == '\0' || str == nullptr)
+	if (str == "" || str == nullptr)
 		return '\0';
 	return str[strLen(str) - K - 1];
 }
